@@ -1,0 +1,16 @@
+project_id = "izzunxublqllpmiqmqmm"
+
+[functions.process-paper]
+verify_jwt = true
+
+[functions.chat-paper]
+verify_jwt = true
+
+[functions.compare-papers]
+verify_jwt = true
+
+[functions.generate-summary]
+verify_jwt = true
+
+[functions.fetch-arxiv]
+verify_jwt = true
