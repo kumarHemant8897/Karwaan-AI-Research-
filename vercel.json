@@ -1,0 +1,11 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "installCommand": "npm install",
+  "framework": "vite",
+  "env": {
+    "VITE_SUPABASE_PROJECT_ID": "@supabase-project-id",
+    "VITE_SUPABASE_PUBLISHABLE_KEY": "@supabase-publishable-key",
+    "VITE_SUPABASE_URL": "@supabase-url"
+  }
+}
